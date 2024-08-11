@@ -1,0 +1,210 @@
+/* #two{
+    color: red;
+}
+#one{
+    color: green;
+} */
+/* a[href^='http']{
+    background-color: red;
+} */
+/* a[href$='com']{
+    background-color: red;
+} */
+/* a[href*='zon']{
+    background-color: red;
+} */
+
+/* *{
+background-color: red;
+} */
+
+/* div p {
+    color: red;
+} */
+/* li:first-child{
+    background-color: red;
+} */
+
+/* li:nth-of-type(1n+3){
+    background-color: red;
+} */
+
+
+/* .outer{
+      height: 100vh;
+      width: 100vw;
+      background-color: red;
+} */
+
+/* .inner{ 
+     height: 50%;
+    width: 100%; 
+     background-color: yellow; 
+ } */
+ /* li{
+    font-size: 2em;
+ } */
+
+ /* div{
+    background-color: orange;
+    width: 400px;
+    height: 200px; */
+    /* display: none; */
+    /* display: inline; */
+    /* display: inline-block; */
+ /* } */
+ /* span{
+    background-color: red;
+    width: 400px;
+    height: 200px; */
+    /* display: inline-block; */
+    /* visibility: hidden; */
+    /* display: none; */
+    /* display: none; */
+    /* display: block; */
+    /* display: none; */
+    /* display: inline-block;/ */
+    /* display: inline; */
+ /* } */
+
+
+ /* div{
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+ }
+ div:nth-of-type(1){
+    background-color: salmon;
+ } */
+ /* div:nth-of-type(2){
+    background-color: red; */
+    /* position: relative;
+    top: 100px;
+    left: 200px; */
+    /* position: absolute; */
+    /* position: fixed; */
+    /* top: 200px; */
+    /* top: 8px; */
+    
+    /* top: 100px; */
+ /* } */
+ /* div:nth-of-type(3){ */
+    /* background-color: green; */
+    /* top: 200px; */
+ /* } */
+
+ /* #parent{
+    border: 2px solid salmon;
+    height: 400px;
+ }                   */
+    /* flex-direction: row; */
+    /* justify-content: baseline; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+ /* } */
+ /* .one{
+    height: 100px;
+    width: 100px;
+ } */
+
+ /* #one{
+    background-color: red;
+ }
+ #two{
+    background-color: blue;
+ }
+ #three{
+    background-color: pink;
+ } */
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ body {
+   width: 100vw;
+   height: 100vh;
+   background-color: #1c1c1c;
+ }
+ 
+ #container {
+   width: 400px;
+   margin: auto;
+   height: 100vh;
+ 
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ input {
+   flex-grow: 1;
+   background-color: #1c1c1c;
+   border: 0;
+   outline: none;
+   font-size: 64px;
+   color: white;
+   text-align: right;
+   padding: 0px 32px;
+ }
+ 
+ .button-grid {
+   flex-grow: 2;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+   gap: 5px;
+ }
+ 
+ button {
+   width: 80%;
+   height: 80%;
+   place-self: center;
+   border-radius: 50%;
+   border: 0;
+   font-size: 24px;
+   font-weight: 500;
+   cursor: pointer;
+ 
+   background-color: #505050;
+   color: white;
+ 
+   transition-property: transform;
+   transition-duration: 200ms;
+ }
+ 
+ button:active {
+   transform: scale(0.85);
+ }
+ 
+ .gray-button {
+   background-color: #d4d4d2;
+   color: #1c1c1c;
+ }
+ 
+ .yellow-btn {
+   background-color: #ff9500;
+   color: white;
+ }
+ 
+ .zero {
+   grid-column: span 2; 
+   border-radius: 35%;
+ }
+
+
+
+
+
+
+
+
